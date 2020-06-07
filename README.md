@@ -29,12 +29,15 @@ docker stop terraria
 ## Docker Compose
 
 An example docker-compose setup using environment variables to configure the server:
+(NOTE that stdin and tty options are required)
 ```
 version: "3.5"
 services:
   terraria:
     image: snw35/terraria:latest
     restart: always
+    stdin_open: true
+    tty: true
     volumes:
       - terraria:/data
     ports:
