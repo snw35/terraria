@@ -1,0 +1,30 @@
+[template]
+src = "serverconfig.txt.tmpl"
+dest = "/opt/terraria/serverconfig.txt"
+keys = [
+  "/terraria/journeypermission/biomespreadsetfrozen",
+  "/terraria/journeypermission/godmode",
+  "/terraria/journeypermission/increaseplacementrange",
+  "/terraria/journeypermission/rain/setfrozen",
+  "/terraria/journeypermission/rain/setstrength",
+  "/terraria/journeypermission/setdifficulty",
+  "/terraria/journeypermission/setspawnrate",
+  "/terraria/journeypermission/time/setdawn",
+  "/terraria/journeypermission/time/setdusk",
+  "/terraria/journeypermission/time/setfrozen",
+  "/terraria/journeypermission/time/setmidnight",
+  "/terraria/journeypermission/time/setnoon",
+  "/terraria/journeypermission/time/setspeed",
+  "/terraria/journeypermission/wind/setfrozen",
+  "/terraria/journeypermission/wind/setstrength",
+  "/terraria/language",
+  "/terraria/maxplayers",
+  "/terraria/motd",
+  "/terraria/npcstream",
+  "/terraria/password",
+  "/terraria/port",
+  "/terraria/priority",
+  "/terraria/secure",
+  "/terraria/upnp",
+  "/terraria/world",
+]
