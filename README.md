@@ -47,7 +47,7 @@ The container takes the following Environment Variables.
 
 More information on each configuration option can be found at: https://terraria.gamepedia.com/Server
 
-| Variable | Default Value | | Description |
+| Variable | Default Value | Description |
 | ---- | ---- | ---- |
 | TERRARIA_JOURNEYPERMISSION_BIOMESPREADSETFROZEN | 1 | 0: Locked for everyone, 1: Can only be changed by host, 2: Can be changed by everyone |
 | TERRARIA_JOURNEYPERMISSION_GODMODE | 1 | 0: Locked for everyone, 1: Can only be changed by host, 2: Can be changed by everyone |
