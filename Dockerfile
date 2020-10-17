@@ -2,15 +2,17 @@ FROM debian:buster-20201012-slim
 
 WORKDIR /opt
 
-ENV TERRARIA_VERSION 1405
+ENV TERRARIA_VERSION 1411
 ENV TERRARIA_URL https://terraria.org/system/dedicated_servers/archives/000/000/041/original
 ENV TERRARIA_FILENAME terraria-server-${TERRARIA_VERSION}.zip
-ENV TERRARIA_SHA256 1ee5d8d62c0b7cd5404a9db640e2aa3e9cf8aaeae08f0a576eeddc2eaf536caf
+ENV TERRARIA_SHA256 bdc73fade747e69b6c5720d4cf9df8b9c14511153a139e7128c43b90600cdbf5
 
 RUN apt-get update \
   && apt-get install -y \
-    wget \
+    apt-utils \
+    dialog \
     unzip \
+    wget \
   && wget $TERRARIA_URL/$TERRARIA_FILENAME \
   && echo "$TERRARIA_SHA256  ./$TERRARIA_FILENAME" | sha256sum -c - \
   && unzip ./$TERRARIA_FILENAME \
