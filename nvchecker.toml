@@ -1,0 +1,14 @@
+[__config__]
+oldver = "old_ver.json"
+newver = "new_ver.json"
+
+[TERRARIA]
+source = "regex"
+regex = "terraria-server-(\\d*).zip"
+url = "https://terraria.org"
+
+[CONFD]
+source = "github"
+github = "kelseyhightower/confd"
+use_max_tag = true
+prefix = "v"
