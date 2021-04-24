@@ -3,7 +3,7 @@ FROM debian:buster-20210408-slim
 WORKDIR /opt
 
 ENV TERRARIA_VERSION 1421
-ENV TERRARIA_URL https://terraria.org/system/dedicated_servers/archives/000/000/044/original
+ENV TERRARIA_URL https://terraria.org/system/dedicated_servers/archives/000/000/045/original
 ENV TERRARIA_FILENAME terraria-server-${TERRARIA_VERSION}.zip
 ENV TERRARIA_SHA256 19f27c37b9c52b56ed51e387a1b252e3eaeb7a1fc8e802218ab7186c5057cb40
 
