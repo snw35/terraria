@@ -1,6 +1,6 @@
 # terraria
 
-* [Travis CI: ![Build Status](https://travis-ci.org/snw35/terraria.svg?branch=master)](https://travis-ci.org/snw35/terraria)
+* [Travis CI: ![Build Status](https://travis-ci.com/snw35/terraria.svg?branch=master)](https://travis-ci.com/github/snw35/terraria)
 * [Dockerhub: snw35/terraria](https://hub.docker.com/r/snw35/terraria)
 
 Automatically-updated Terraria dedicated server container.
