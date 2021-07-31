@@ -2,10 +2,8 @@ FROM debian:buster-20210621-slim
 
 WORKDIR /opt
 
-ENV TERRARIA_PATCH_VERSION 000/000/046
-
 ENV TERRARIA_VERSION 1423
-ENV TERRARIA_URL https://terraria.org/system/dedicated_servers/archives/${TERRARIA_PATCH_VERSION}/original
+ENV TERRARIA_URL https://terraria.org/api/download/pc-dedicated-server
 ENV TERRARIA_FILENAME terraria-server-${TERRARIA_VERSION}.zip
 ENV TERRARIA_SHA256 12bd93494a31a1487384af1d6e86ee52edce72e2f093e90ee9eaa516eabaa462
 

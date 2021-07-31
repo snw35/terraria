@@ -2,11 +2,6 @@
 oldver = "old_ver.json"
 newver = "new_ver.json"
 
-[TERRARIA_PATCH]
-source = "regex"
-regex = "\\/system\\/dedicated_servers\\/archives\\/(\\d+\\/\\d+\\/\\d+)\\/original"
-url = "https://terraria.org"
-
 [TERRARIA]
 source = "regex"
 regex = "terraria-server-(\\d*).zip"
