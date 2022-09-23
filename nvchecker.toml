@@ -2,6 +2,11 @@
 oldver = "old_ver.json"
 newver = "new_ver.json"
 
+[BASE]
+source = "container"
+container = "library/debian"
+include_regex = "buster-\\d{8}-slim"
+
 [TERRARIA]
 source = "regex"
 regex = "terraria-server-(\\d*).zip"
