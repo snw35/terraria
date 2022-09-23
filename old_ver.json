@@ -1,3 +1,4 @@
 {
+  "BASE": "buster-20220912-slim",
   "CONFD": "0.16.0"
 }
