@@ -1,4 +1,5 @@
 {
   "BASE": "buster-20220912-slim",
+  "TERRARIA": "1443",
   "CONFD": "0.16.0"
 }
