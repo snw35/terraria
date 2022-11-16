@@ -2,10 +2,10 @@ FROM debian:buster-20221024-slim
 
 WORKDIR /opt
 
-ENV TERRARIA_VERSION 1443
+ENV TERRARIA_VERSION 14481
 ENV TERRARIA_URL https://terraria.org/api/download/pc-dedicated-server
 ENV TERRARIA_FILENAME terraria-server-${TERRARIA_VERSION}.zip
-ENV TERRARIA_SHA256 deadf9b99f74518f39866791c5e91670d98cb6b49ac8d90bd1a39346dea5e53e
+ENV TERRARIA_SHA256 e2633dfa21361c99f3a16e26bdeb77b32d269e043ad9dc61c5ad5e0c9c41181a
 
 RUN apt-get update \
   && apt-get install -y \
