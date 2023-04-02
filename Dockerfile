@@ -1,4 +1,4 @@
-FROM debian:buster-20230109-slim
+FROM debian:buster-20230320-slim
 
 WORKDIR /opt
 
