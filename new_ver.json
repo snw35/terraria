@@ -1,4 +1,4 @@
 {
-  "BASE": "buster-20230411-slim",
+  "BASE": "buster-20230502-slim",
   "CONFD": "0.16.0"
 }
