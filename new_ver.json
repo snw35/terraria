@@ -1,4 +1,4 @@
 {
-  "BASE": "bookworm-20250224-slim",
+  "BASE": "bookworm-20250317-slim",
   "CONFD": "0.16.0"
 }

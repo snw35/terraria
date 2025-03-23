@@ -1,4 +1,4 @@
-FROM debian:bookworm-20250224-slim
+FROM debian:bookworm-20250317-slim
 
 WORKDIR /opt
 
