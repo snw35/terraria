@@ -1,4 +1,14 @@
 {
-  "BASE": "bookworm-20250721-slim",
-  "CONFD": "0.16.0"
+  "version": 2,
+  "data": {
+    "BASE": {
+      "version": "bookworm-20250908-slim"
+    },
+    "CONFD": {
+      "version": "0.16.0",
+      "gitref": "refs/tags/v0.16.0",
+      "revision": "7217b0ca0c454bcdf90fce1e86787d3f6d56e15a",
+      "url": "https://github.com/kelseyhightower/confd/releases/tag/v0.16.0"
+    }
+  }
 }
