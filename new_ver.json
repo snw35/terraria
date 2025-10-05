@@ -2,7 +2,7 @@
   "version": 2,
   "data": {
     "BASE": {
-      "version": "bookworm-20250908-slim"
+      "version": "bookworm-20250929-slim"
     },
     "CONFD": {
       "version": "0.16.0",
