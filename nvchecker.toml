@@ -5,7 +5,7 @@ newver = "new_ver.json"
 [BASE]
 source = "container"
 container = "library/debian"
-include_regex = "bookworm-\\d{8}-slim"
+include_regex = "trixie-\\d{8}-slim"
 
 [TERRARIA]
 source = "regex"
