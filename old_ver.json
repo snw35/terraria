@@ -2,7 +2,7 @@
   "version": 2,
   "data": {
     "BASE": {
-      "version": "bookworm-20251117-slim"
+      "version": "trixie-20260112-slim"
     },
     "CONFD": {
       "version": "0.16.0",
