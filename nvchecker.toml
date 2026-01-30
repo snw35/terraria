@@ -9,8 +9,10 @@ include_regex = "trixie-\\d{8}-slim"
 
 [TERRARIA]
 source = "regex"
-regex = "terraria-server-(\\d*).zip"
-url = "https://terraria.org"
+regex = "https://terraria.org/api/download/pc-dedicated-server/terraria-server-(\\d\\d\\d\\d).zip"
+url = "https://terraria.fandom.com/wiki/Server"
+encoding = "utf8"
+sort_version_key = "vercmp"
 
 [CONFD]
 source = "github"
