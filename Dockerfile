@@ -2,10 +2,10 @@ FROM debian:trixie-20260112-slim
 
 WORKDIR /opt
 
-ENV TERRARIA_VERSION 1450
+ENV TERRARIA_VERSION 1453
 ENV TERRARIA_URL https://terraria.org/api/download/pc-dedicated-server
 ENV TERRARIA_FILENAME terraria-server-${TERRARIA_VERSION}.zip
-ENV TERRARIA_SHA256 3d103b70214bd962654f905ab76e0f4a0b3dae12eee02da6bb9cd66eeb7791d4
+ENV TERRARIA_SHA256 e56e97a46696413b3d952cb5509abad1847a99fbdbdcb4edb3da692b4e573428
 
 RUN apt-get update \
   && apt-get install -y \
