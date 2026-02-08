@@ -2,7 +2,7 @@
   "version": 2,
   "data": {
     "BASE": {
-      "version": "trixie-20260112-slim"
+      "version": "trixie-20260202-slim"
     },
     "CONFD": {
       "version": "0.16.0",
@@ -11,7 +11,7 @@
       "url": "https://github.com/kelseyhightower/confd/releases/tag/v0.16.0"
     },
     "TERRARIA": {
-      "version": "1453"
+      "version": "1454"
     }
   }
 }
