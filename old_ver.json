@@ -2,7 +2,7 @@
   "version": 2,
   "data": {
     "BASE": {
-      "version": "trixie-20260202-slim"
+      "version": "trixie-20260223-slim"
     },
     "CONFD": {
       "version": "0.16.0",
