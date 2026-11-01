@@ -1,4 +1,4 @@
-FROM debian:trixie-20261020-slim
+FROM debian:trixie-20261027-slim
 
 WORKDIR /opt
 
